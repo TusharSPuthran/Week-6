@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    tools:context=".GalleryActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:src="@drawable/rp"
+        android:padding="16dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    <ImageView
+        android:id="@+id/img2"
+        android:src="@drawable/radhakrishann"
+        android:padding="16dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    <ImageView
+        android:id="@+id/img3"
+        android:src="@drawable/zakir"
+        android:padding="16dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    <ImageView
+        android:id="@+id/img4"
+        android:src="@drawable/kalam"
+        android:padding="16dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+</GridLayout>
